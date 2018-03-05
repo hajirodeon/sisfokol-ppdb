@@ -1,0 +1,168 @@
+<?php
+
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+/////// SISFOKOL-PPDB                                           ///////
+///////////////////////////////////////////////////////////////////////
+/////// Dibuat oleh :                                           ///////
+/////// Agus Muhajir, S.Kom                                     ///////
+/////// URL 	:                                               ///////
+///////     * http://sisfokol.wordpress.com/                    ///////
+///////     * http://hajirodeon.wordpress.com/                  ///////
+///////     * http://yahoogroup.com/groups/sisfokol/            ///////
+///////     * http://yahoogroup.com/groups/linuxbiasawae/       ///////
+/////// E-Mail	:                                               ///////
+///////     * hajirodeon@yahoo.com                              ///////
+///////     * hajirodeon@gmail.com                              ///////
+/////// HP/SMS	: 081-829-88-54                                 ///////
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+
+
+//nilai
+$maine = "$sumber/adm/index.php";
+
+
+//view //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+echo '<table bgcolor="#E4D6CC" width="100%" border="0" cellspacing="0" cellpadding="5">
+<tr>
+<td>';
+//view //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+//home //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+echo '<a href="'.$maine.'" title="Home" class="menuku"><strong>HOME</strong>&nbsp;&nbsp;</a> | ';
+//home //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+//setting ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+echo '<A href="#" class="menuku" data-flexmenu="flexmenu1"><strong>SETTING</strong>&nbsp;&nbsp;</A> |
+<UL id="flexmenu1" class="flexdropdownmenu">
+<LI>
+<a href="'.$sumber.'/adm/s/pass.php" title="Ganti Password">Ganti Password</a>
+</LI>
+<LI>
+<a href="'.$sumber.'/adm/s/reset_pass.php" title="Reset Password">Reset Password</a>
+</LI>
+<LI>
+<a href="'.$sumber.'/adm/s/seleksi.php" title="Set Aktif Seleksi">Set Aktif Seleksi</a>
+</LI>
+<LI>
+<a href="'.$sumber.'/adm/s/log.php" title="Log History Input">Log History Input</a>
+</LI>
+<LI>
+<a href="'.$sumber.'/adm/s/info.php" title="Info">Info</a>
+</LI>
+</UL>';
+//setting ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+//buku tamu /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+echo '<a href="'.$sumber.'/adm/buku_tamu.php" class="menuku" title="Buku Tamu"><strong>BUKU TAMU</strong>&nbsp;&nbsp;</a> | ';
+//buku tamu /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+//akademik //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+echo '<A href="#" class="menuku" data-flexmenu="flexmenu7"><strong>AKADEMIK</strong>&nbsp;&nbsp;</A> |
+<UL id="flexmenu7" class="flexdropdownmenu">
+<LI>
+<a href="'.$sumber.'/adm/akad/tapel.php" title="Data Tahun Pelajaran">Data Tahun Pelajaran</a>
+</LI>
+
+<LI>
+<a href="'.$sumber.'/adm/akad/rumus.php" title="Rumus Nilai">Rumus Nilai</a>
+</LI>
+
+<LI>
+<a href="'.$sumber.'/adm/akad/prestasi.php" title="Data Prestasi">Data Prestasi</a>
+</LI>
+
+<LI>
+<a href="'.$sumber.'/adm/akad/mapel.php" title="Data Mata Pelajaran Ujian Tertulis">Data Mata Pelajaran Ujian Tertulis</a>
+</LI>
+
+<LI>
+<a href="'.$sumber.'/adm/akad/mapel_un.php" title="Data Mata Pelajaran UN">Data Mata Pelajaran UN</a>
+</LI>
+
+</UL>';
+//akademik //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+//calon /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+echo '<A href="#" class="menuku" data-flexmenu="flexmenu9"><strong>CALON</strong>&nbsp;&nbsp;</A> |
+<UL id="flexmenu9" class="flexdropdownmenu">
+<LI>
+<a href="'.$sumber.'/adm/calon/reg.php" title="Data Pendaftar">Data Pendaftar</a>
+</LI>
+
+<LI>
+<a href="'.$sumber.'/adm/calon/nilai.php" title="Nilai - Nilai">Nilai - Nilai</a>
+</LI>
+</UL>';
+//calon /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+//laporan ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+echo '<A href="#" class="menuku" data-flexmenu="flexmenu12"><strong>LAPORAN</strong>&nbsp;&nbsp;</A> |
+<UL id="flexmenu12" class="flexdropdownmenu">
+<LI>
+<a href="'.$sumber.'/adm/lap/daftar.php" title="Data Pendaftar">Data Pendaftar</a>
+</LI>
+
+<LI>
+<a href="'.$sumber.'/adm/lap/h_s_sementara.php" title="Hasil Seleksi Sementara">Hasil Seleksi Sementara</a>
+</LI>
+
+
+<LI>
+<a href="'.$sumber.'/adm/lap/h_s_akhir.php" title="Hasil Seleksi Akhir">Hasil Seleksi Akhir</a>
+</LI>
+
+<LI>
+<a href="'.$sumber.'/adm/lap/rangking.php" title="Rangking">Rangking</a>
+</LI>
+
+
+<LI>
+<a href="'.$sumber.'/adm/lap/diterima.php" title="Calon Yang Diterima">Calon Yang Diterima</a>
+</LI>
+
+<LI>
+<a href="'.$sumber.'/adm/lap/statistik.php" title="Statistik Penerimaan">Statistik Penerimaan</a>
+</LI>
+
+</UL>';
+//laporan ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+//logout ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+echo '<A href="'.$sumber.'/logout.php" class="menuku" title="Logout / KELUAR"><strong>LogOut</strong></A>
+</td>
+</tr>
+</table>';
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+?>
