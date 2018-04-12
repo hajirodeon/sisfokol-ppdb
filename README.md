@@ -75,8 +75,6 @@ Bila ada request atau permintaan dengan perubahan sistem tertentu, agar sesuai k
 
 OmahBIASAWAE OpenSource Developer
 
-Jl. Raya Tegorejo No.9 Pegandon - Kendal. Jawa Tengah. Indonesia.
-
 
 E-Mail :
 
@@ -91,10 +89,7 @@ SMS/WA/Telegram :
 
 
 Situs :
-
--> http://omahbiasawae.net/
-
--> http://analisatoko.com/
+-> http://github.com/hajirodeon/
 
 -> http://hajirodeon.wordpress.com/
 
